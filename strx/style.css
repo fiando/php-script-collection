@@ -1,0 +1,62 @@
+html,body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+    font-family:sans-serif;
+}
+body {
+    width:960px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:15px;
+    background-color:#252525;
+}
+header h1 {
+    text-shadow:1px 1px 3px #000,
+                3px 3px 6px #000;
+    cursor:pointer;
+}
+.x-form input,select {
+    font-size:1em;
+    width:50%;
+    height:30px;
+    border:none;
+    box-shadow:1px 1px 3px black;
+    margin-bottom: 15px;
+}
+.x-form input:focus {
+    background-color:#FCC918;
+}
+.text {
+    width:100%;
+    box-shadow:1px 1px 5px #000;
+    padding:15px;
+    text-align:left;
+    text-transform: capitalize;
+    display:block;
+    margin: 0 auto;
+    text-shadow:0px 1px 3px #000;
+}
+.io {
+    background-color:#035365;
+}
+.tutorial {
+    background-color:#629F0C;
+}
+.text hr {
+    border:1px solid #fff;
+}
+
+a:link {
+    color:#FF9191;
+    text-decoration: none;
+}
+a:visited {
+    color:#18FCDC;
+}
+a:hover {
+    color:#FCC918;
+    text-decoration: underline;
+}
+a:active { color:#C6FC18;; }

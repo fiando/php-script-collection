@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Date Diff</title>
+</head>
+<body>
+  <form action="diff.php" method="post">
+    date 1
+    <input type="text" id="date1" data-format="YYYY-MM-DD HH:mm" data-template="YYYY MM DD HH:mm" name="date1" value="2007-09-01 04:10"><br>
+    date 2
+    <input type="text" id="date2" data-format="YYYY-MM-DD HH:mm" data-template="YYYY MM DD HH:mm" name="date2" value="2012-09-11 10:25"><br>
+    <button type="submit" name="submit">get diff</button>
+  </form>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/moment.min.js"></script>
+  <script src="js/combodate.js"></script>
+  <script>
+  $(function(){
+    $('#date1').combodate();
+    $('#date2').combodate();
+  });
+  </script>
+</body>
+</html>
