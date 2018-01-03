@@ -1,2 +1,1 @@
-# php-script-collection
-PHP Script Collection
+php-script-collection
